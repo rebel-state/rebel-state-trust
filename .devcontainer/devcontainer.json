@@ -14,7 +14,6 @@
         "bradlc.vscode-tailwindcss",
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
-        "nuxtr.nuxtr",
         "google.geminicodeassist"
       ],
       "settings": {
@@ -30,7 +29,7 @@
     }
   },
   "remoteUser": "root",
-  //"postCreateCommand": ["npm install"],
+  "postCreateCommand": ["npm install"],
   "forwardPorts": [3000],
   "portsAttributes": {
     "3000": {
